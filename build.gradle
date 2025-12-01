@@ -31,17 +31,3 @@ Boolean gitUsed() {
           throw new IOException("Command 'gitUsed()' exited with " + returnCode)
   }
 }
-android {
-    // ... (other configurations)
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_17 // Add or change this line
-        targetCompatibility JavaVersion.VERSION_17 // Add or change this line
-    }
-
-    kotlinOptions {
-        jvmTarget = '17' // Add or change this line
-    }
-
-    // ... (other configurations)
-}
